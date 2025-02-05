@@ -9,11 +9,13 @@ body:
   attributes:
     label: "Ok 2"
     value: "This is working now!"
+
 - type: dropdown
   attributes:
-    label: Favorite dessert
-    unique: true
+    label: What types of pie do you like?
     options:
-      - ice cream
-      - ice cream
-      - pie
+      - Steak & Ale
+      - Chicken & Leek
+      - None
+  validations:
+    required: true
