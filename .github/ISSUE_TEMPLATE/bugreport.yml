@@ -10,7 +10,7 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-- type: textarea
+- type: markdown
   attributes:
     label: Current Behavior
     description: A concise description of what you're experiencing.
