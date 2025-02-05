@@ -12,10 +12,8 @@ body:
 
 - type: dropdown
   attributes:
-    label: What types of pie do you like?
+    label: Favorite dessert
     options:
-      - Steak & Ale
-      - Chicken & Leek
-      - None
-  validations:
-    required: true
+      - ice cream
+      - ice cream
+      - pie
