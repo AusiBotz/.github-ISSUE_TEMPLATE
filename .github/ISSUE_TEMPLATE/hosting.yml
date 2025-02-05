@@ -1,7 +1,17 @@
 name: Hosting Anfrage
 description: Frage ein Hosting an
 body:
-- type: markdown
+    - type: markdown
+        attributes:
+          value: |
+            Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: browsers
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
