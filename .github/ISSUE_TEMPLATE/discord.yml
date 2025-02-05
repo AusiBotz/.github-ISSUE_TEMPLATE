@@ -10,12 +10,9 @@ body:
     label: "Ok 2"
     value: "This is working now!"
 - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+  attributes:
+    label: Favorite dessert
+    options:
+      - ice cream
+      - ice cream
+      - pie
