@@ -1,0 +1,6 @@
+name: Create a Domain DNS
+description: Subdomain Creator
+body:
+- type: input
+  label: Type a Name
+  
