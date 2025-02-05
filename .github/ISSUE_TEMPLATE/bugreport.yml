@@ -16,13 +16,13 @@ body:
     description: A concise description of what you're experiencing.
   validations:
     required: false
-- type: textarea
+- type: markdown
   attributes:
     label: Expected Behavior
     description: A concise description of what you expected to happen.
   validations:
     required: false
-- type: textarea
+- type: markdown
   attributes:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
@@ -33,7 +33,7 @@ body:
       1. See error...
   validations:
     required: false
-- type: textarea
+- type: markdown
   attributes:
     label: Environment
     description: |
@@ -48,7 +48,7 @@ body:
     render: markdown
   validations:
     required: false
-- type: textarea
+- type: markdown
   attributes:
     label: Anything else?
     description: |
