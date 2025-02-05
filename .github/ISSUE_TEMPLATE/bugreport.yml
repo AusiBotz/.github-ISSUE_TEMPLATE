@@ -10,19 +10,19 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-- type: markdown
+- type: textarea
   attributes:
     label: Current Behavior
     description: A concise description of what you're experiencing.
   validations:
     required: false
-- type: markdown
+- type: textarea
   attributes:
     label: Expected Behavior
     description: A concise description of what you expected to happen.
   validations:
     required: false
-- type: markdown
+- type: textarea
   attributes:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
@@ -33,7 +33,7 @@ body:
       1. See error...
   validations:
     required: false
-- type: markdown
+- type: textarea
   attributes:
     label: Environment
     description: |
@@ -48,7 +48,7 @@ body:
     render: markdown
   validations:
     required: false
-- type: markdown
+- type: textarea
   attributes:
     label: Anything else?
     description: |
