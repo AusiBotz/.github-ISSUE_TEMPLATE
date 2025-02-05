@@ -27,8 +27,8 @@ body:
     label: Which OS?
     description: Ok
   options:
-    - 1.0.2 (Default)
-    - 1.0.3 (Edge)
+    - "1.0.2 (Default)"
+    - 1.0.3
   default: 0
   validations:
     required: true
